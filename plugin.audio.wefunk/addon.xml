@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.wefunk" version="1.0" name="weFunk Radio" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0" />
+		<import addon="script.module.lamlib" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">WeFunk addon for kodi</summary>
+		<description lang="en">Groove</description>
+		<disclaimer lang="en">This addon is not endorses by weFunk radio</disclaimer>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<source>https://github.com/Morten-Staffeldt/kodi</source>
+		<website>www.wefunkradio.com</website>
+		<news>no news</news>
+		<platform>all</platform>
+		<language></language>
+		<forum></forum>
+		<email></email>
+	</extension>
+</addon>
